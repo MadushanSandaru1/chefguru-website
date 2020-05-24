@@ -32,7 +32,7 @@
                 <div class="info">
                     <h3><?php echo $row_rooms_details['type']; ?></h3>
                     <p><?php echo $row_rooms_details['description']; ?></p>
-                    <a class="btn btn-default">Price: $ <?php echo $row_rooms_details['price']; ?></a>
+                    <a class="btn btn-default">Price: $ <?php echo $row_rooms_details['rate']; ?></a>
                 </div>
 
             </div>
