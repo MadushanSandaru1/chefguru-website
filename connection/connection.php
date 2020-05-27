@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost","root","","chefguru_new");
+    $con = mysqli_connect("localhost","root","","chefguru");
 
     // Check connection
     if (mysqli_connect_errno())

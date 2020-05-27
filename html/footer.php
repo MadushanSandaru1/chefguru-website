@@ -26,9 +26,8 @@
                             </span>
                         </div-->
                         <ul class="list-unstyled">
-                            <li><a>+94 70 25 34 128</a></li>
-                            <li><a>+94 51 42 36 952</a></li>
-                            <li><a>chefguru@gmail.com</a></li>
+                            <li><a>+94 57 22 30 500</a></li>
+                            <li><a>mevangurusinghe2@gmail.com</a></li>
                             <li><a>Sangharaja Piriwena Road, Lower Kahattewela, Bandarawela, 90100. Sri Lanka.</a></li>
                         </ul>
                         <div class="social">
