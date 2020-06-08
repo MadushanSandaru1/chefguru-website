@@ -6,6 +6,26 @@ body {
     color: #73726C;
 }
 
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #660000, 0 0 40px #660000, 0 0 50px #660000, 0 0 60px #660000, 0 0 70px #660000;
+    }
+    
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #B30000, 0 0 40px #B30000, 0 0 50px #B30000, 0 0 60px #B30000, 0 0 70px #B30000, 0 0 80px #B30000;
+    }
+}
+
+.index_img {
+    filter: brightness(50%);
+}
+
 .btn, a, a:hover {
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;

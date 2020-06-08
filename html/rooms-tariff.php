@@ -27,12 +27,12 @@
         <div class="col-sm-6 wowload fadeInUp">
             <div class="rooms">
 
-                <img src="../images/room_type/<?php echo $row_rooms_details['image']; ?>" class="img-responsive">
+                <!--img src="" class="img-responsive"-->
 
                 <div class="info">
                     <h3><?php echo $row_rooms_details['type']; ?></h3>
                     <p><?php echo $row_rooms_details['description']; ?></p>
-                    <a class="btn btn-default">Price: $ <?php echo $row_rooms_details['rate']; ?></a>
+                    <a class="btn btn-default">Price: LKR <?php echo number_format($row_rooms_details['rate'],2); ?></a>
                 </div>
 
             </div>
@@ -47,8 +47,10 @@
         
         <div class="col-sm-6 wowload fadeInUp">
             <div class="rooms">
-
-                <a class="btn btn-default">There is no room description</a>
+                
+                <div class="info">
+                    <h3>There is no room description</h3>
+                </div>
 
             </div>
         </div>

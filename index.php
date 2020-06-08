@@ -112,11 +112,11 @@
 
         <!-- banner -->
         <div class="banner">    	   
-            <img src="images/homepage_banner.jpg"  class="img-responsive" alt="slide">
+            <img src="images/homepage_banner.jpg"  class="img-responsive index_img" alt="slide">
             <div class="welcome-message">
                 <div class="wrap-info">
                     <div class="information">
-                        <h1  class="animated fadeInDown">Welcome to Chef Guru Hotel</h1>
+                        <h1  class="animated fadeInDown glow">Welcome to Chef Guru Hotel</h1>
                         <!--p class="animated fadeInUp">Most luxurious hotel of asia with the royal treatments and excellent customer service.</p-->                
                     </div>
                     <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
@@ -149,16 +149,16 @@
                                 <input type="email" name="customer_email" class="form-control"  placeholder="Email" required maxlength="50">
                             </div>
                             <div class="form-group">
-                                <input type="Phone" name="customer_phone" class="form-control"  placeholder="Phone" required maxlength="20">
+                                <input type="tel" name="customer_phone" class="form-control"  placeholder="Phone" required maxlength="20">
                             </div>
                             <div class="form-group">
-                                <input type="date" name="customer_date" class="form-control"  placeholder="Date" required min="<?php echo date('Y-m-d'); ?>">
+                                <input type="date" name="customer_date" class="form-control"  placeholder="Date" required min="<?php echo date('Y-m-d', strtotime(' +1 day')); ?>">
                             </div>
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-6">
                                         <select class="form-control" name="no_of_room" required>
-                                            <option>No. of Rooms</option>
+                                            <option value="1">No. of Rooms</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
