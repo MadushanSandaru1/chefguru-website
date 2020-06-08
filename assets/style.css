@@ -53,25 +53,25 @@ p {
 }
 
 .btn-default {
-    background:#bfa145;
+    background:#660000;
     box-shadow: none !important;
     color: #fff;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
     box-shadow: none !important;
-    background:#756534;
+    background:#5e0808;
     color: #fff;
     outline: none !important;
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    background-color: #bfa145;
-    border-color: #bfa145;
+    background-color: #660000;
+    border-color: #660000;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #bfa145;
+    color: #660000;
 }
 
 .spacer {
@@ -119,9 +119,9 @@ p {
 .banner .welcome-message{position: absolute;left: 0;right:0;bottom:0;top:0;text-align: center;}
 .banner .welcome-message .wrap-info{display: table;height: 100%;width: 100%;}
 .banner .welcome-message .wrap-info .information{display: table-cell;vertical-align: middle;}
-.banner .arrow-nav{position: absolute;bottom:-3.5em;background-color: #bfa145;height: 7em;width: 7em;display: inline-block;z-index: 100;left: 50%;margin-left: -52px;color: #fff;border-radius: 50%;}
+.banner .arrow-nav{position: absolute;bottom:-3.5em;background-color: #660000;height: 7em;width: 7em;display: inline-block;z-index: 100;left: 50%;margin-left: -52px;color: #fff;border-radius: 50%;}
 .banner .arrow-nav i{font-size: 5em;line-height:105px;}
-.banner .arrow-nav:hover{background: #756534;}
+.banner .arrow-nav:hover{background: #5e0808;}
 
 
 /*reserve-info*/
@@ -219,7 +219,7 @@ body::-webkit-scrollbar {
     ::-webkit-scrollbar-thumb {
 /*        -webkit-border-radius: 10px;
         border-radius: 10px;*/
-        background:#bfa145; 
+        background:#660000; 
     }
     ::-webkit-scrollbar-thumb:window-inactive {
         background: #ddd; 
@@ -239,7 +239,7 @@ body::-webkit-scrollbar {
     }
     
     .navbar-default .navbar-toggle {
-        background-color: #bfa145;
+        background-color: #660000;
     }
     
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {

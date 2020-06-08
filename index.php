@@ -134,7 +134,7 @@
                     <div class="col-sm-7 col-md-8">
 
                         <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft">
-                            <iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <img  class="embed-responsive-item" src="images/index_img.jpg" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
                         </div>
                     </div>
 
@@ -269,18 +269,17 @@
                             </span>
                         </div-->
                         <ul class="list-unstyled">
-                            <li><a>+94 70 25 34 128</a></li>
-                            <li><a>+94 51 42 36 952</a></li>
-                            <li><a>chefguru@gmail.com</a></li>
-                            <li><a>Sangharaja Piriwena Road, Lower Kahattewela, Bandarawela, 90100. Sri Lanka.</a></li>
+                            <li><a>+94 57 22 30 500</a></li>
+                            <li><a>mevangurusinghe2@gmail.com</a></li>
+                            <li><a>Sri Sangharaja Piriwena Road, Lower Kahattewela, Bandarawela, 90100. Sri Lanka.</a></li>
                         </ul>
                         <div class="social">
-                            <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                            <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                            <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                            <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
+                            <a href="https://www.facebook.com/Villa-di-Sara-873068492801765/" target="_blank"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                            <a href="https://www.instagram.com/explore/locations/1998277737108074/villa-di-sara/" target="_blank"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                            <!--a href="#" target="_blank"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a-->
                         </div>
                     </div>
 
