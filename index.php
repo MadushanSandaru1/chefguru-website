@@ -14,10 +14,11 @@
         $customer_email = $_POST['customer_email'];
         $customer_phone = $_POST['customer_phone'];
         $customer_date = $_POST['customer_date'];
+        $type_of_room = $_POST['type_of_room'];
         $no_of_room = $_POST['no_of_room'];
         $customer_msg = $_POST['customer_msg'];
         
-        $customer_room_book = "INSERT INTO `room_book`(`name`, `email`, `phone`, `check_in_date`, `no_of_room`, `message`) VALUES ('{$customer_name}', '{$customer_email}', '{$customer_phone}', '{$customer_date}', '{$no_of_room}', '{$customer_msg}')";
+        $customer_room_book = "INSERT INTO `room_book`(`name`, `email`, `phone`, `check_in_date`, `type_of_room`, `no_of_room`, `message`) VALUES ('{$customer_name}', '{$customer_email}', '{$customer_phone}', '{$customer_date}', '{$type_of_room}', '{$no_of_room}', '{$customer_msg}')";
 
         $result_customer_room_book = mysqli_query($con,$customer_room_book);
 
@@ -156,6 +157,29 @@
                             </div>
                             <div class="form-group">
                                 <div class="row">
+                                    <div class="col-xs-6">
+                                        <select class="form-control" name="type_of_room" required>
+                                            <option value="1">Type of Rooms</option>
+                                            <?php
+
+                                                $get_rooms_details = "SELECT * FROM `room_type` WHERE `is_deleted` = 0";
+
+                                                $result_rooms_details = mysqli_query($con,$get_rooms_details);
+
+                                                if (mysqli_num_rows($result_rooms_details) > 0) {
+
+                                                    while($row_rooms_details = mysqli_fetch_assoc($result_rooms_details)) {
+
+                                            ?>
+                                            <option value="<?php echo $row_rooms_details['id']; ?>"><?php echo $row_rooms_details['type']; ?></option>
+                                            <?php
+                                                    }
+                                                }
+                                            ?>
+                                            
+                                        </select>
+                                    </div>
+                                    
                                     <div class="col-xs-6">
                                         <select class="form-control" name="no_of_room" required>
                                             <option value="1">No. of Rooms</option>
